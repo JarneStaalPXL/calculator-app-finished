@@ -18,6 +18,7 @@
     "jest-junit": "^13.0.0"
   },
   "jest": {
+    "outputDirectory": ".",
     "testEnvironment": "node",
     "testResultsProcessor": "jest-junit",
     "coveragePathIgnorePatterns": [
